@@ -8,9 +8,10 @@ Este proyecto contiene pruebas automatizadas con **Cypress** para validar el flu
 ```
 cypress/
   ├── e2e/
-  │   └── register.cy.js   # Casos de prueba del registro
-  ├── fixtures/            # Datos de prueba (ej: usuarios válidos e inválidos)
-  ├── support/             # Comandos reutilizables y configuración
+  │   ├── registerPositive.cy.js   # Casos positivos del registro
+  │   ├── registerNegative.cy.js   # Casos negativos del registro
+  ├── fixtures/                    # Datos de prueba (ej: usuarios válidos e inválidos)
+  ├── support/                     # Comandos reutilizables y configuración
 README.md
 package.json
 
@@ -41,8 +42,8 @@ Antes de comenzar, asegurate de tener instalado:
 Cloná el repositorio y luego instalá las dependencias:
 
 ```bash
-git clone https://github.com/tu-usuario/cypress-register-automation.git
-cd cypress-register-automation
+git clone https://github.com/Grincode/Xacademy_autom_registro.git
+cd Xacademy_autom_registro
 npm install
 ```
 
