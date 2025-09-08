@@ -49,13 +49,13 @@ npm install
 
 ## ▶️ Ejecución de pruebas
 
-# Modo gráfico
+### Modo gráfico
 
 ```
 npx cypress open
 ```
 
-# Terminal
+### Terminal
 
 ```
 npx cypress run
